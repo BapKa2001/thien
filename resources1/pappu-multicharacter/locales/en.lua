@@ -1,6 +1,42 @@
 local Translations = {
+    ui = {
+        -- Main
+        male = "Nam giới",
+        female = "Nữ giới",
+        error_title = "Lỗi!",
+        characters_header = "Bộ chọn ký tự",
+        characters_count = "nhân vật",
+      
+         --Setup Characters
+       default_image = 'https://discord.gg/jnAVW2RG/1231930300628471878/1231938611759546428/multi.gif?ex=6638c73d&is=6626523d&hm=5ca0b23a3e41131d1d2a95352e57df746d014d4f36906a56d9032b2e13c8cc55&', --You can 'assets/yourimage.png' or any put "any link you want"
+       create_new_character = "Tạo nhân vật mới",
+       default_right_image = 'https://discord.gg/jnAVW2RG/attachments/1231930300628471878/1231942815823695942/action_key.png?ex=6627a7a7&is=66265627&hm=e14faf70483ecc96cf83f52d2b2adb2aa474b86f44f5f63566f67dcbb5719ef4&',
+
+        --Create character
+        create_header = "Tạo bản sắc",
+        header_detail = "Nhập thông tin nhân vật của bạn",
+        gender_marker = "Điểm đánh dấu giới tính",
+        
+        missing_information = "Bạn đã viết thông tin còn thiếu.",
+        badword = "Bạn đã dùng từ xấu, hãy thử lại!",
+       
+        create_firstname = "Tên",
+        create_lastname = "Họ",
+        create_nationality = "Quốc tịch",
+        create_birthday = "Sinh nhật",
+
+        -- Buttons
+        select = "Lựa chọn",
+        create = "Tạo nên",
+        spawn = "Sinh sản",
+        delete = "Xóa bỏ",
+        cancel = "Hủy bỏ",
+        confirm = "Xác nhận",
+        close = "Đóng",
+    },
+
     notifications = {
-        ["char_deleted"] = "Ký tự đã bị xóa!",
+        ["char_deleted"] = "Đã xóa nhân vật!",
         ["deleted_other_char"] = "Bạn đã xóa thành công ký tự có id công dân %{citizenid}.",
         ["forgot_citizenid"] = "Bạn quên nhập id công dân!",
     },
@@ -8,9 +44,11 @@ local Translations = {
     commands = {
         -- /deletechar
         ["deletechar_description"] = "Xóa nhân vật của người chơi khác",
-        ["citizenid"] = "ID công dân",
+        ["citizenid"] = "Căn cước công dân",
         ["citizenid_help"] = "ID công dân của nhân vật bạn muốn xóa",
 
+        --Loaded
+       
         -- /logout
         ["logout_description"] = "Đăng xuất nhân vật (Chỉ dành cho quản trị viên)",
 
@@ -19,56 +57,11 @@ local Translations = {
     },
 
     misc = {
+        ["succes_loaded"] = '^2[qb-core]^7 %{value}đã tải thành công!',
         ["droppedplayer"] = "Bạn đã ngắt kết nối khỏi QBCore"
     },
 
-    ui = {
-        -- Main
-        characters_header = "Nhân vật của tôi",
-        emptyslot = "Chỗ trống",
-        play_button = "Chơi",
-        create_button = "Tạo nhân vật",
-        delete_button = "Xóa ký tự",
 
-        -- Character Information
-        charinfo_header = "Thông tin nhân vật",
-        charinfo_description = "Chọn một ô ký tự để xem tất cả thông tin về nhân vật của bạn.",
-        name = "Tên",
-        male = "Nam giới",
-        female = "Nữ giới",
-        firstname = "Tên đầu tiên",
-        lastname = "Họ",
-        nationality = "Quốc tịch",
-        gender = "Giới tính",
-        birthdate = "Ngày sinh",
-        job = "Công việc",
-        jobgrade = "Cấp bậc công việc",
-        cash = "Tiền mặt",
-        bank = "Ngân hàng",
-        phonenumber = "Số điện thoại",
-        accountnumber = "Số tài khoản",
-
-        chardel_header = "Đăng ký nhân vật",
-
-        -- Delete character
-        deletechar_header = "Xóa ký tự",
-        deletechar_description = "Bạn có chắc chắn muốn xóa nhân vật của mình không?",
-
-        -- Buttons
-        cancel = "Hủy bỏ",
-        confirm = "Xác nhận",
-
-        -- Loading Text
-        retrieving_playerdata = "Truy xuất dữ liệu người chơi",
-        validating_playerdata = "Xác thực dữ liệu người chơi",
-        retrieving_characters = "Truy xuất ký tự",
-        validating_characters = "Xác thực ký tự",
-
-        -- Notifications
-        ran_into_issue = "Chúng tôi gặp phải một vấn đề",
-        profanity = "Có vẻ như bạn đang cố gắng sử dụng một số từ ngữ tục tĩu/xấu trong tên hoặc quốc tịch của mình!",
-        forgotten_field = "Có vẻ như bạn đã quên nhập một hoặc nhiều trường!"
-    }
 }
 
 Lang = Lang or Locale:new({

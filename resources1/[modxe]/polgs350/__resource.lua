@@ -8,7 +8,7 @@ files {
 'handling.meta',
 'vehicles.meta',
 'carvariations.meta',
-'carcols.meta'
+'carcols.meta',
 'dlctext.meta'
 }
 
