@@ -1,32 +1,32 @@
 local Translations = {
     success = {
-        success_message = "Successful",
-        fuses_are_blown = "The fuses have been blown",
-        door_has_opened = "The door has opened"
+        success_message = "Thành công",
+        fuses_are_blown = "Cầu chì đã bị đứt",
+        door_has_opened = "Cánh cửa đã mở"
     },
     error = {
-        cancel_message = "Cancelled",
-        safe_too_strong = "Looks like the safe lock is too strong...",
-        missing_item = "You're missing an item...",
-        bank_already_open = "The bank is already open...",
-        minimum_police_required = "Minimum of %{police} police required",
-        security_lock_active = "The security lock is active, opening the door is currently not possible",
-        wrong_type = "%{receiver} did not receive the right type for argument '%{argument}'\nreceived type: %{receivedType}\nreceived value: %{receivedValue}\n expected type: %{expected}",
-        fuses_already_blown = "The fuses are already blown...",
-        event_trigger_wrong = "%{event}%{extraInfo} was triggered when some conditions weren't met, source: %{source}",
-        missing_ignition_source = "You're missing an ignition source"
+        cancel_message = "Đã hủy",
+        safe_too_strong = "Có vẻ như ổ khóa an toàn quá mạnh...",
+        missing_item = "Bạn đang thiếu một món đồ...",
+        bank_already_open = "Ngân hàng đã mở rồi...",
+        minimum_police_required = "Cần tối thiểu %{police} cảnh sát",
+        security_lock_active = "Khóa bảo mật đang hoạt động, hiện tại không thể mở cửa",
+        wrong_type = "%{receiver} không nhận được đúng loại cho đối số '%{argument}'\nreceived type: %{receivedType}\nreceived value: %{receivedValue}\n loại dự kiến: %{expected}",
+        fuses_already_blown = "Cầu chì đã đứt rồi...",
+        event_trigger_wrong = "%{event}%{extraInfo} được kích hoạt khi một số điều kiện không được đáp ứng, nguồn: %{source}",
+        missing_ignition_source = "Bạn đang thiếu nguồn đánh lửa"
     },
     general = {
-        breaking_open_safe = "Breaking the safe open...",
-        connecting_hacking_device = "Connecting the hacking device...",
-        fleeca_robbery_alert = "Fleeca bank robbery attempt",
-        paleto_robbery_alert = "Blain County Savings bank robbery attempt",
-        pacific_robbery_alert = "Pacific Standard Bank robbery attempt",
-        break_safe_open_option_target = "Break Safe Open",
-        break_safe_open_option_drawtext = "[E] Break open the safe",
-        validating_bankcard = "Validating Card...",
-        thermite_detonating_in_seconds = "Thermite is going off in %{time} second(s)",
-        bank_robbery_police_call = "10-90: Bank Robbery"
+        breaking_open_safe = "Phá két sắt...",
+        connecting_hacking_device = "Đang kết nối thiết bị hack...",
+        fleeca_robbery_alert = "Vụ cướp ngân hàng Fleeca",
+        paleto_robbery_alert = "Vụ cướp ngân hàng của Blaine County Savings",
+        pacific_robbery_alert = "Vụ cướp ngân hàng Pacific Standard",
+        break_safe_open_option_target = "Phá vỡ an toàn mở",
+        break_safe_open_option_drawtext = "[E] Phá mở két sắt",
+        validating_bankcard = "Thẻ xác thực...",
+        thermite_detonating_in_seconds = "Thermite sẽ tắt sau %{time} giây nữa",
+        bank_robbery_police_call = "10-90: Cướp ngân hàng"
     }
 }
 

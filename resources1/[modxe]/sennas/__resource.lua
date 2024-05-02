@@ -10,7 +10,7 @@ files {
 'carvariations.meta',
 'carcols.meta',
 'dlctext.meta',
-'mclarenscontentunlocks.meta'
+'mclarenscontentunlocks.meta',
 'shop_vehicle.meta',
 'vehiclelayouts.meta'
 }

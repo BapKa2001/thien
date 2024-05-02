@@ -1,26 +1,26 @@
 local Translations = {
     error = {
-        already_driving_bus = 'You are already driving a bus',
-        not_in_bus = 'You are not in a bus',
-        one_bus_active = 'You can only have one active bus at a time',
-        drop_off_passengers = 'Drop off the passengers before you stop working',
-        exploit = "Attempting To Exploit"
+        already_driving_bus = 'Bạn đang lái xe buýt',
+        not_in_bus = 'Bạn không ở trên xe buýt',
+        one_bus_active = 'Bạn chỉ có thể có một xe buýt hoạt động tại một thời điểm',
+        drop_off_passengers = 'Thả hành khách xuống trước khi bạn ngừng làm việc',
+        exploit = "Đang cố gắng khai thác"
     },
     success = {
-        dropped_off = 'Person was dropped off',
+        dropped_off = 'Người được thả xuống',
     },
     info = {
-        bus = 'Standard Bus',
-        goto_busstop = 'Go to the bus stop',
-        busstop_text = '[E] Bus Stop',
-        bus_plate = 'BUS', -- Can be 3 or 4 characters long (uses random 4 digits)
-        bus_depot = 'Bus Depot',
-        bus_stop_work = '[E] Stop Working',
-        bus_job_vehicles = '[E] Job Vehicles'
+        bus = 'Xe buýt tiêu chuẩn',
+        goto_busstop = 'Đi tới bến xe buýt',
+        busstop_text = '[E] Điểm dừng xe buýt',
+        bus_plate = 'XE BUÝT', -- Can be 3 or 4 characters long (uses random 4 digits)
+        bus_depot = 'Bến xe buýt',
+        bus_stop_work = '[E] Ngừng hoạt động',
+        bus_job_vehicles = '[E] Xe công việc'
     },
     menu = {
-        bus_header = 'Bus Vehicles',
-        bus_close = '⬅ Close Menu'
+        bus_header = 'Xe buýt',
+        bus_close = '⬅ Đóng thực đơn'
     }
 }
 

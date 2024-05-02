@@ -1,27 +1,36 @@
 fx_version 'cerulean'
-game 'gta5'
+games {'gta5'}
+ui_page 'html/index.html'
 lua54 'yes'
-author 'Kakarot'
-description 'Allows players to purchase vehicles and manage shops through a job'
-version '2.1.0'
+use_fxv2_oal 'yes'
 
-shared_script {
-    'config.lua',
-    '@qb-core/shared/locale.lua',
-    'locales/en.lua',
-    'locales/*.lua'
-}
-
-client_scripts {
-    '@PolyZone/client.lua',
-    '@PolyZone/BoxZone.lua',
-    '@PolyZone/EntityZone.lua',
-    '@PolyZone/CircleZone.lua',
-    '@PolyZone/ComboZone.lua',
-    'client.lua'
+shared_scripts {
+	'config.lua',
+	'vehicles.lua',
 }
 
 server_scripts {
-    '@oxmysql/lib/MySQL.lua',
-    'server.lua'
+	'@mysql-async/lib/MySQL.lua',	
+	'framework/sv_wrapper.lua',
+	'server/server.lua'
+}
+
+client_scripts {
+	'framework/cl_wrapper.lua',
+	'client/client.lua',
+}
+
+files {
+	'html/design.css',
+	'html/index.html',
+	'html/script.js',
+	'html/fonts/*',	
+	'html/brands/*.png',	
+	'imgs/*.png',
+	'imgs/uploads/*.jpg',
+}
+
+data_file 'DLC_ITYP_REQUEST' 'stream/garage.ytyp'
+files {
+    'stream/garage.ytyp'
 }

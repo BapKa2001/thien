@@ -1,19 +1,26 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
+author 'Kakarot'
+description 'Heads-up display letting players track their hunger, thirst, stress, and more'
+version '2.2.0'
 
-description 'QB-HUD-Redux'
-version '2.0.0'
-
-client_scripts {
-	'config.lua',
-	'client/main.lua',
-	'@qb-core/import.lua'
+shared_scripts {
+    '@qb-core/shared/locale.lua',
+    'locales/en.lua',
+    'locales/*.lua',
+    'config.lua'
 }
 
-ui_page 'html/ui.html'
+client_script 'client.lua'
+server_script 'server.lua'
+
+ui_page 'html/index.html'
 
 files {
-	'html/ui.html',
-	'html/css/main.css',
-	'html/js/app.js'
+    'html/*',
+    'html/index.html',
+    'html/styles.css',
+    'html/responsive.css',
+    'html/app.js',
 }

@@ -139,4 +139,15 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
 		},
 	},
+	['lumberjack'] = {
+		label = 'LumberJack',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Logger',
+                payment = 50
+            },
+        },
+	},
 }

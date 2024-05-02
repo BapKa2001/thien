@@ -1,32 +1,32 @@
 local Translations = {
     error = {
-        no_vehicles = 'There are no vehicles in this location!',
-        not_depot = 'Your vehicle is not in depot',
-        not_owned = 'This vehicle can\'t be stored',
-        not_correct_type = 'You can\'t store this type of vehicle here',
-        not_enough = 'Not enough money',
-        no_garage = 'None',
-        vehicle_occupied = 'You can\'t store this vehicle as it is not empty',
-        vehicle_not_tracked = 'Could not track vehicle',
-        no_spawn = 'Area too crowded'
+        no_vehicles = 'Không có phương tiện nào ở vị trí này!',
+        not_depot = 'Xe của bạn không có trong kho',
+        not_owned = 'Không thể cất giữ chiếc xe này',
+        not_correct_type = 'Bạn không thể cất giữ loại phương tiện này ở đây',
+        not_enough = 'Không đủ tiền',
+        no_garage = 'Không có',
+        vehicle_occupied = 'Bạn không thể cất giữ phương tiện này vì nó không trống',
+        vehicle_not_tracked = 'Không thể theo dõi xe',
+        no_spawn = 'Khu vực quá đông đúc'
     },
     success = {
-        vehicle_parked = 'Vehicle Stored',
-        vehicle_tracked = 'Vehicle Tracked',
+        vehicle_parked = 'Xe được lưu trữ',
+        vehicle_tracked = 'Xe được theo dõi',
     },
     status = {
-        out = 'Out',
-        garaged = 'Garaged',
-        impound = 'Impounded By Police',
-        house = 'House',
+        out = 'Ngoài',
+        garaged = 'Nhà để xe',
+        impound = 'Bị cảnh sát bắt giữ',
+        house = 'Căn nhà',
     },
     info = {
-        car_e = 'E - Garage',
-        sea_e = 'E - Boathouse',
-        air_e = 'E - Hangar',
-        rig_e = 'E - Rig Lot',
-        depot_e = 'E - Depot',
-        house_garage = 'E - House Garage',
+        car_e = 'E - Ga-ra',
+        sea_e = 'E - Nhà thuyền',
+        air_e = 'E - Nhà chứa máy bay',
+        rig_e = 'E - Giàn khoan Lô',
+        depot_e = 'E - kho chứa',
+        house_garage = 'E - Gara nhà',
     }
 }
 

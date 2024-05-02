@@ -7,6 +7,7 @@ local availableJobs = {
     ["garbage"] = "Garbage Collector",
     ["bus"] = "Bus Driver",
     ["hotdog"] = "Hot Dog Stand"
+    ["lumberjack"] = "lumberjack",
 }
 
 -- Exports

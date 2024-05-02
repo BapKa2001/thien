@@ -1,15 +1,15 @@
 local Translations ={
-    ["not_on_radio"] = "You're not connected to a signal",
-    ["on_radio"] = "You're already connected to this signal",
-    ["joined_to_radio"] = "You're connected to: %{channel}",
-    ["restricted_channel_error"] = "You can not connect to this signal!",
-    ["invalid_radio"] = "This frequency is not available.",
-    ["you_on_radio"] = "You're already connected to this channel",
-    ["you_leave"] = "You left the channel.",
-    ['volume_radio'] = 'New volume %{value}',
-    ['decrease_radio_volume'] = 'The radio is already set to maximum volume',
-    ['increase_radio_volume'] = 'The radio is already set to the lowest volume',
-    ['increase_decrease_radio_channel'] = 'New channel %{value}',
+    ["not_on_radio"] = "Bạn chưa được kết nối với tín hiệu",
+    ["on_radio"] = "Bạn đã kết nối với tín hiệu này",
+    ["joined_to_radio"] = "Bạn đã kết nối với: %{channel}",
+    ["restricted_channel_error"] = "Bạn không thể kết nối với tín hiệu này!",
+    ["invalid_radio"] = "Tần số này không có sẵn.",
+    ["you_on_radio"] = "Bạn đã kết nối với kênh này",
+    ["you_leave"] = "Bạn đã rời khỏi kênh.",
+    ['volume_radio'] = 'Tập mới %{value}',
+    ['decrease_radio_volume'] = 'Radio đã được đặt ở mức âm lượng tối đa',
+    ['increase_radio_volume'] = 'Radio đã được đặt ở mức âm lượng thấp nhất',
+    ['increase_decrease_radio_channel'] = 'Kênh mới %{value}',
 }
 
 Lang = Lang or Locale:new({

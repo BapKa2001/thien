@@ -167,6 +167,11 @@ Config.PhoneApplications = {
         slot = 15,
         Alerts = 0,
     },
+    ['lumberjack'] = {
+        job = "lumberjack",
+        label = "Logger",
+        Coords = {1167.73, -1347.27},
+    },
 }
 Config.MaxSlots = 20
 

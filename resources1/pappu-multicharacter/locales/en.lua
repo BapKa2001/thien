@@ -4,7 +4,7 @@ local Translations = {
         male = "Nam giới",
         female = "Nữ giới",
         error_title = "Lỗi!",
-        characters_header = "Bộ chọn ký tự",
+        characters_header = "tài khoản",
         characters_count = "nhân vật",
       
          --Setup Characters
@@ -28,7 +28,7 @@ local Translations = {
         -- Buttons
         select = "Lựa chọn",
         create = "Tạo nên",
-        spawn = "Sinh sản",
+        spawn = "vào",
         delete = "Xóa bỏ",
         cancel = "Hủy bỏ",
         confirm = "Xác nhận",
